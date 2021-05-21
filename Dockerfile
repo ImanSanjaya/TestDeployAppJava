@@ -152,4 +152,4 @@ RUN set -eux; \
 EXPOSE 8001
 CMD ["catalina.sh", "run"]
 
-COPY target/*.war /usr/local/tomcat/webapps/myweb.war
+COPY target/*.war /usr/local/tomcat/webapps/
