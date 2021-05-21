@@ -149,7 +149,7 @@ RUN set -eux; \
 		exit 1; \
 	fi
 
-EXPOSE 8080
+EXPOSE 8001
 CMD ["catalina.sh", "run"]
 
 COPY target/*.war /usr/local/tomcat/webapps/myweb.war
